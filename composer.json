@@ -1,8 +1,8 @@
 {
-    "name": "davidxu/yii2-echarts",
-    "description": "A Yii2 echarts widget",
+    "name": "davidxu/yii2-chartjs",
+    "description": "A Yii2 chartjs widget",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension", "echarts"],
+    "keywords": ["yii2","extension", "chartjs"],
     "license": "MIT",
     "authors": [
         {
@@ -13,8 +13,7 @@
     "require": {
         "php": ">=8.0",
         "yiisoft/yii2": "~2.0.0",
-        "npm-asset/echarts": "^5.4",
-        "davidxu/yii2-base": "^1.0"
+        "npm-asset/chartjs": "^4.0"
     },
     "repositories":[
         {
@@ -24,7 +23,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "davidxu\\echarts\\": "src/"
+            "davidxu\\chartjs\\": "src/"
         }
     }
 }
