@@ -13,7 +13,7 @@
     "require": {
         "php": ">=8.0",
         "yiisoft/yii2": "~2.0.0",
-        "npm-asset/chartjs": "^4.0"
+        "npm-asset/chart.js": "^4.0"
     },
     "repositories":[
         {
